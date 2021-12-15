@@ -1,0 +1,29 @@
+.header{
+    background-color: white;
+    width: 10px;
+    height:10px;
+
+    
+
+}
+
+.background{
+    background-image: url("/Resources/NFT.jpg");
+    background-size: contain;
+    width: 1920px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    
+}
+
+.logo{
+    transform: rotate(90deg);
+    width: 4%;
+    height: 4%;
+    padding: 5px;
+}
+
+.brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
