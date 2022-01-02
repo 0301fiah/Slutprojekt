@@ -1,0 +1,114 @@
+
+body{
+    background-image: url(Resources/Space.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex
+}
+
+.nav-container a{
+    display: inline-block;
+
+}
+
+.navbar{
+ border: none;
+ background:none;
+ display: flex;
+ margin-top: 40px;
+ 
+ 
+}
+
+.extra-link{
+    transition: all 0.5s ease 0s;
+
+
+} 
+
+
+
+.extra-link:hover {
+    transform: scale(1.1);
+}
+
+
+
+.logo{
+    transform: rotate(90deg);
+    width: 5%;
+    height: 5%;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+.brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 2.5px;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+
+}
+
+
+.extra-links{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#creators{
+    margin-right: 20px;
+}
+
+#nft{
+    margin-left: 70px;
+}
+
+
+#contact{
+    margin-left: 70px;
+}
+
+.navbar .extra-link{
+    text-decoration: none;
+    margin-top: 11px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: ;
+    display: inline;
+    height: fit-content;
+    margin-left: 0px ;
+    
+
+} 
+.splide{
+  max-width: 500px;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 10em;
+  margin-right: 26em;
+}
+
+
+.bark{
+   height: 100%; 
+   width: 100%;
+   
+}
+
+.clark{
+ width: 100%;
+ height: 100%;
+}
+
+.park{
+    width: 100%;
+    height: 100%;
+}

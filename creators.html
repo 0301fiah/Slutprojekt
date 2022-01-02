@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="creators.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/themes/splide-default.min.css">
+    
+</head>
+<body>
+
+
+    <div class= "nav-container">
+
+    
+            
+        <div class="navbar">
+            <img class="logo" src="Resources/Beta.png" alt="Logo">
+
+            <!-- <a class = "brand" href="slutprojekt.html">BETA</a> -->
+            <p class="brand">
+                <a class ="brand" href="slutprojekt.html">BETA</a></p>
+
+
+            <a class = "extra-links" id = "creators" href="">MEET THE CREATORS</a>
+            <a class = "extra-link" id = "nft" href="nft.html">NFT</a>
+            <a class = "extra-link" id ="contact" href="contact.html">CONTACT</a>
+            <a href=""></a>
+        </div>
+    </div>
+
+    <div class="splide">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                      <img class = "bark" src="Resources/Bark-Buckerberg.jpg" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img class ="clark" src="Resources/Clark-Cluckerberg.jpg" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img class = "park" src="Resources/Park-Puckerberg.jpg" alt="">
+                  </li>
+              </ul>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
+    <script>
+
+            var splide = new Splide( '.splide', {
+            type   : 'loop',
+            perPage: 1,
+            focus  : 'center',
+            } );
+
+            splide.mount();
+
+    </script>
+    
+</body>
+</html>
